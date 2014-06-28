@@ -1,3 +1,8 @@
+-- HOW TO CHECK IF DATABASE IS WORKING:
+-- Create database: DESCRIBE /Users/student/Code/JohnWang/2014-06-databases/SQL/schema.sql
+-- Enter mysql: mysql;
+-- Select database: USE chat;
+
 CREATE DATABASE chat;
 
 USE chat;

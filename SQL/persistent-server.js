@@ -2,17 +2,15 @@
 /* You already know how to create an http server from the previous
  * assignment; you can re-use most of that code here. */
 
-
 var http = require("http");
-// var request = require("./request-handler.js");
-var static = require("node-static");
+var request = require("./request-handler.js");
 
 
 /* Every server needs to listen on a port with a unique number. The
  * standard port for HTTP servers is port 80, but that port is
  * normally already claimed by another server and/or not accessible
  * so we'll use a higher port number that is not likely to be taken: */
-var port = 3001;
+var port = 8080;
 
 /* For now, since you're running this server on your local machine,
  * we'll have it listen on the IP address 127.0.0.1, which is a

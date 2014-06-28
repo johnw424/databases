@@ -19,4 +19,28 @@ dbConnection.connect();
  * using this module.*/
 
 
+exports.getUserID = getUserID = function(username, callback){
+  if(dbConnection.query("SELECT id FROM Users WHERE username = " + username)) {
 
+  };
+  // !Check if username in Users table
+    // Create user entry
+  // return userID
+};
+
+exports.getRoomID = getRoomID = function(roomname, callback){
+  // !Check if roomname in Rooms table
+    // Add room entry
+  // return roomID
+};
+
+exports.postMessage = function(callback){
+  // Grab User ID
+  // Grab Room ID
+  // Create new message with User ID, Room ID, and Message text
+};
+
+exports.getMessages = function(callback) {
+  // Get Room ID
+  // Search & return all messages with Room ID
+};
