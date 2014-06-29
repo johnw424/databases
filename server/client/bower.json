@@ -1,0 +1,24 @@
+{
+  "name": "chatterbox",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "underscore": "~1.6.0",
+    "moment": "~2.7.0",
+    "handlebars": "~1.3.0",
+    "backbone": "~1.1.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "client/bower_components"
+  ],
+  "homepage": "https://github.com/kryptonitesherpa/2014-06-databases",
+  "authors": [
+    "Hack Reactor Students <accounts@hackreactor.com>"
+  ],
+  "license": "MIT"
+}
